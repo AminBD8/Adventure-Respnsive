@@ -1,0 +1,91 @@
+/*========== Mobile Device  ==========*/
+
+@media only screen and (max-width:667px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        left: 15px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: rgb(157, 119, 228);
+        margin-top: -901px;
+        transition: all 0.5s ease;
+    }
+
+
+    .mobile-menu {
+        margin-top: 0;
+        border-bottom-right-radius: 30%;
+    }
+
+    .nav-links li {
+        margin: 30px auto;
+    }
+
+    header {
+        height: 55vh;
+    }
+
+    
+    .header-content h2 {
+        font-size: 20px;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+    
+    .header-content span {
+        width: 200px;
+        height: 5px;
+        display: block;
+        background: #fb2259;
+        margin: 10px auto ;
+        border-radius: 5px;
+    }
+    
+    .header-content h1 {
+        font-size: 7vmin;
+    }
+    
+    .ctn {
+        padding: 8px 15px;
+        font-size: 20px;
+        background: #fb2259;
+        border-radius: 30px;
+        color: white;
+    }
+
+    /* event  */
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col {
+        margin: 20px auto;
+    }
+
+    .col img {
+        max-width: 90%;
+    }
+
+    
+
+    /* explore */
+
+    .explore-content {
+        width: 90%;
+    }
+
+} 
